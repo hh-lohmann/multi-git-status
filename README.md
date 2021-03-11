@@ -3,9 +3,9 @@ mgitstatus
 
 ---
 
-***!! DOES NOT `git fetch`, i.e. compares to last / independently fetched state of remotes***
+***!! DOES NOT `git fetch` >>by default<<, but compares to last / independently fetched state of remotes***
 
-(NB: Fetching of private repos with authentication possibly on multiple hosts (GitHub, Bitbucket, GitLab, ...) is no walking distance)
+*Does* a fetch with `-f`, but note that fetching of (private) repos with authentication possibly on multiple hosts (GitHub, Bitbucket, GitLab, ...) is no walking distance
 
 ---
 
