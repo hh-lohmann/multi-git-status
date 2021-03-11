@@ -1,6 +1,15 @@
 mgitstatus
 ==========
 
+---
+
+***!! DOES NOT `git fetch`, i.e. compares to last / independently fetched state of remotes***
+
+(NB: Fetching of private repos with authentication possibly on multiple hosts (GitHub, Bitbucket, GitLab, ...) is no walking distance)
+
+---
+
+
 Show uncommitted, untracked and unpushed changes in multiple Git
 repositories.  Scan for .git dirs up to **DEPTH** directories deep.
 The default is 2.  If **DEPTH** is 0, the scan is infinitely deep.
